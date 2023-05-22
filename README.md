@@ -11,11 +11,11 @@ column_specs = [
     ('Column3', 'str'),
     ('Column4', 'date')
 ]
-num_rows = 10
-include_nulls = False
-str_categories = ['apple', 'banana', 'cherry', 'orange']
+num_rows = 20
+include_nulls = True
+str_categories = ['apple', 'banana', 'cherry', 'orange', 'dragonfruit', 'eggplant']
 start_date = '2022-01-01'
-end_date = '2022-12-31'
+end_date = '2023-05-22'
 
 df = generate_synthetic_data(column_specs, num_rows, include_nulls, str_categories, start_date, end_date)
 
